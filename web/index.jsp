@@ -28,11 +28,20 @@
         <style type="text/css">
 
             body{
-                padding: 50px;
                 background-image: url("image/FisioImage.PNG");
                 background-repeat: no-repeat;
                 background-size: cover;         
             }
+            
+            #login{
+                position: absolute;
+                left: 35%;
+                top: 70%;
+                font-size: 60px;
+                height: 10%;
+                width: 20%;
+            }
+            
             .modal-dialog {
                 width: 300px;
             }
@@ -115,7 +124,7 @@
     </head>
 
     <body >
-        <button class="btn btn-primary" data-toggle="modal" data-target="#myModal" aria-hidden="true">
+        <button id="login" class="btn btn-primary" data-toggle="modal" data-target="#myModal" aria-hidden="true">
             Log in
         </button>
 
@@ -164,10 +173,9 @@
                         </form>
 
 
-                    </div> <!-- /.modal-footer -->
-                </div><!-- /.modal-content -->
-            </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
-
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
