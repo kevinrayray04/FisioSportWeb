@@ -30,7 +30,7 @@ public class AdministradorDAO {
     public AdministradorDTO validarLogin(String username, String password){
         
         //Falta implementar
-        return null;
+        return new AdministradorDTO();
     }
     
     

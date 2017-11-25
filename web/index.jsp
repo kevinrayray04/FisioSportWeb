@@ -28,7 +28,7 @@
         <style type="text/css">
 
             body{
-                background-image: url("image/FisioImage.PNG");
+                background-image: url("images/FisioImage.PNG");
                 background-repeat: no-repeat;
                 background-size: cover;         
             }
