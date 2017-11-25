@@ -37,8 +37,7 @@ public class LoginServlet extends HttpServlet {
             //Crear sesión y guardar al admin en sesión
             request.getSession(true).setAttribute("admin", admin);
             
-            RequestDispatcher rd= request.getRequestDispatcher("MostrarHomeSevlet");
-            rd.forward(request, response);
+            response.sendRedirect("MostrarHomeServlet");
             
         }else{
             //Login Incorrecto
@@ -46,10 +45,16 @@ public class LoginServlet extends HttpServlet {
             
             request.setAttribute("error", error);
             
-            RequestDispatcher rd= request.getRequestDispatcher("index.jsp");
+            RequestDispatcher rd= request.getRequestDispatcher("index2.jsp");
             rd.forward(request, response);
             
         }
     }
     
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        RequestDispatcher rd= request.getRequestDispatcher("index2.jsp");
+        rd.forward(request, response);
+    }
 }
