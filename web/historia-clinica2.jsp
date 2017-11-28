@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="home.jsp">Inicio <span class="sr-only">(current)</span></a>
                         </li>
 
                         <li class="nav-item active dropdown">
@@ -34,8 +34,8 @@
                                 Registro
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Membresía</a>
-                                <a class="dropdown-item" href="#">Historia clínica</a>
+                                <a class="dropdown-item" href="membresia2.jsp">Membresía</a>
+                                <a class="dropdown-item" href="historia-clinca2.jsp">Historia clínica</a>
                             </div>
                         </li>
 
