@@ -23,8 +23,8 @@ public class LoginServlet extends HttpServlet {
         /*
         Falta recuperar los valores que manda el admin desde el formulario HTML.
         */
-        String username="";
-        String password="";
+        String username=request.getParameter("usuario");
+        String password=request.getParameter("password");;
         
         AdministradorDTO admin = AdministradorDAO.getInstance().validarLogin(
                 username, 
