@@ -69,104 +69,192 @@
         <div class="container">
             <div>
                 <p></p>
-                <h3 style="color: #FE9A2E;">
+                <h1 style="color: #FE9A2E;">
                     Membresía
-                </h3>
+                </h1>
                 <div>
 
                     <form action="RegistrarMembresiaServlet" method="POST">
-                        <h5>Datos del cliente</h5>
+                        <br>
+                        <h4>Datos del cliente</h4>
+
+                        <br>
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-1">
+                                <label>Nombres</label>
+                            </div>
+                            <div class="col-sm-2">
                                 <input type="text" class="form-control" placeholder="Nombres">
+                            </div>
+                            <div class="col-sm-1">
+                                <label>Apellidos</label>
                             </div>
                             <div class="col-sm-4">
                                 <input type="text" class="form-control" placeholder="Apellido paterno">
                             </div>
                             <div class="col-sm-4">
                                 <input type="text" class="form-control" placeholder="Apellido materno">
-                            </div>
+                            </div>                            
                         </div>
+
                         <p></p>
                         <div class="row">
-                            <div class="col-sm-3">
-                                <input type="text" class="form-control" placeholder="Número de DNI">
+                            <div class="col-sm-1">
+                                <label>DNI</label>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-2">
+                                <input type="number" class="form-control" placeholder="Número de DNI">
+                            </div>
+                            <div class="col-sm-1">
+                                <label>Direccion</label>
+                            </div>
+                            <div class="col-sm-5">
                                 <input type="text" class="form-control" placeholder="Dirección">
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-sm-1">
+                                <label>Distrito</label>
+                            </div>
+                            <div class="col-sm-2">
                                 <input type="text" class="form-control" placeholder="Distrito">
                             </div>
                         </div>
+
                         <p></p>
                         <div class="row">
-                            <div class="col-sm-4">
-                                <input type="text" class="form-control" placeholder="Teléfono">
+                            <div class="col-sm-1">
+                                <label>Celular</label>
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="number" class="form-control" placeholder="Celular">
+                            </div>
+                            <div class="col-sm-1">
+                                <label>Email</label>
                             </div>
                             <div class="col-sm-4">
-                                <input type="text" class="form-control" placeholder="Correo electrónico">
+                                <input type="text" class="form-control" placeholder="Email">
                             </div>
-                            <div class="col-sm-4">
-                                <input type="text" class="form-control" placeholder="Número de emergencia">
+                            <div class="col-sm-1">
+                                <label>Emergencia</label>
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="number" class="form-control" placeholder="Número de emergencia">
                             </div>
                         </div>
-                        <p></p>
-                        <h5>Datos laborales</h5>
+
+                        <br>
+                        <br>
+                        <h4>Datos laborales</h4>
+
+                        <br>
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-1">
+                                <label>Ocupación</label>
+                            </div>
+                            <div class="col-sm-3">
                                 <input type="text" class="form-control" placeholder="Ocupación">
+                            </div>
+                            <div class="col-sm-2">
+                                <label>Centro de trabajo</label>
                             </div>
                             <div class="col-sm-6">
                                 <input type="text" class="form-control" placeholder="Centro de trabajo">
                             </div>
                         </div>
+
                         <p></p>
                         <div class="row">
+                            <div class="col-sm-1">
+                                <label>Dirección</label>
+                            </div>
                             <div class="col-sm-8">
                                 <input type="text" class="form-control" placeholder="Dirección">
                             </div>
-                            <div class="col-sm-4">
-                                <input type="text" class="form-control" placeholder="Teléfono">
+                            <div class="col-sm-1">
+                                <label>Teléfono</label>
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="number" class="form-control" placeholder="Teléfono">
                             </div>
                         </div>
-                        <p></p>
-                        <h5>Datos de la membresía</h5>
+
+                        <br>
+                        <br>
+                        <h4>Datos de la membresía</h4>
+
+                        <br>
                         <div class="row">
-                            <div class="col-sm-7">
-                                <input type="text" class="form-control" placeholder="Servicio adquirido">
+                            <div class="col-sm-2">
+                                <label>Servicio adquirido</label>
                             </div>
                             <div class="col-sm-5">
+                                <input type="text" class="form-control" placeholder="Servicio adquirido">
+                            </div>
+                            <div class="col-sm-1">
+                                <label>Promoción</label>
+                            </div>
+                            <div class="col-sm-4">
                                 <input type="text" class="form-control" placeholder="Promoción">
                             </div>
                         </div>
+
                         <p></p>
                         <div class="row">
-                            <div class="col-sm-6">
-                                <input type="text" class="form-control" placeholder="Congelamiento">
+                            <div class="col-sm-2">
+                                <label>Congelamiento</label>
                             </div>
-                            <div class="col-sm-6">
-                                <input type="text" class="form-control" placeholder="Pago">
+                            <div class="col-sm-2">
+                                <input type="number" class="form-control" placeholder="Congelamiento">
+                            </div>
+                            <div class="col-sm-1">
+                                <label>Pago</label>
+                            </div>
+                            <div class="col-sm-3">
+                                <select class="form-control">
+                                    <option>Efectivo</option>
+                                    <option>Visa</option>
+                                    <option>Mastercard</option>
+                                </select>
                             </div>
                         </div>
+
                         <p></p>
                         <div class="row">
+                            <div class="col-sm-2">
+                                <label>Número de sesiones</label>
+                            </div>
                             <div class="col-sm-3">
                                 <input type="text" class="form-control" placeholder="Número de sesiones">
+                            </div>
+                            <div class="col-sm-2">
+                                <label>Sesiones de nutricion</label>
                             </div>
                             <div class="col-sm-3">
                                 <input type="text" class="form-control" placeholder="Sesiones de nutrición">
                             </div>
-                            <div class="col-sm-3">
+                        </div>
+
+                        <p></p>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <label>Consultas médicas</label>
+                            </div>
+                            <div class="col-sm-2">
                                 <input type="text" class="form-control" placeholder="Consultas médicas">
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-sm-2">
+                                <label>Frecuencia</label>
+                            </div>
+                            <div class="col-sm-2">
                                 <input type="text" class="form-control" placeholder="Frecuencia">
                             </div>
                         </div>
-                        <p></p>
+
+                        <br>
+                        <br>
                         <input type="submit" class="btn btn-info form-control" value="Registrar Historia Clínica">
-                        <p></p>
+                        <br>
+                        <br>
+
                     </form>
                 </div>
 
@@ -201,7 +289,7 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-        
+
         <c:if test="${mensaje!=null}">
             <script>
                 $('#myModal').modal('show');

@@ -74,7 +74,7 @@
                 <h4>Agenda</h4> <!--  Clientes - MTz -->
             </div>
 
-            <table class="table table-bordered">
+            <table class="table table-bordered table-responsive">
                 <thead>
                     <tr class="bg-secondary">
                         <th width="10%">Hora</th>
