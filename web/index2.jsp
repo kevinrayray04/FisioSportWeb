@@ -20,7 +20,7 @@
             <div class="row align-items-center" style=" height:100vh">
                 <div class="col-sm-6" style="text-align:center;">
                     <div style="margin:5%;">
-                        <img src="images/logo_dummy.png" alt="logo" class="img-fluid" />
+                        <img src="images/fisiosport.jpg" alt="logo" class="img-fluid" />
                     </div>
 
                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
