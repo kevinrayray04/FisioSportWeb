@@ -67,127 +67,137 @@
 
         <div class="container">
             <div>
-                <h2>
+                <h1>
                     Hola, admin
-                </h2>
-                
+                </h1>
+
+                <br>
                 <h4>Agenda</h4> <!--  Clientes - MTz -->
             </div>
 
-            <table class="table table-bordered table-responsive">
-                <thead>
-                    <tr class="bg-secondary">
-                        <th width="10%">Hora</th>
-                        <th width="15%">Lunes</th>
-                        <th width="15%">Martes</th>
-                        <th width="15%">Miercoles</th>
-                        <th width="15%">Jueves</th>
-                        <th width="15%">Viernes</th>
-                        <th width="15%">Sabado</th>
-                    </tr>                    
-                </thead>
-                <tbody>
-                    <tr>
-                        <th class="bg-secondary">08:00</th>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                    </tr>
-                    <tr>
-                        <th class="bg-secondary">09:00</th>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                    </tr>
-                    <tr>
-                        <th class="bg-secondary">10:00</th>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                    </tr>
-                    <tr>
-                        <th class="bg-secondary">11:00</th>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                    </tr>
-                    <tr>
-                        <th class="bg-secondary">12:00</th>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>                        
-                    </tr>
-                    <tr>
-                        <th class="bg-secondary">13:00</th>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                    </tr>
-                    <tr>
-                        <th class="bg-secondary">14:00</th>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                    </tr>
-                    <tr>
-                        <th class="bg-secondary">15:00</th>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                    </tr>
-                    <tr>
-                        <th class="bg-secondary">16:00</th>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                    </tr>
-                    <tr>
-                        <th class="bg-secondary">17:00</th>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                    </tr>
-                    <tr>
-                        <th class="bg-secondary">18:00</th>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                        <td rowspan="1"></td>
-                    </tr>                   
-                </tbody>
-            </table>
+            <br>
+            <div class="row">
+                <div class="col-sm-1">
+
+                </div>
+                <div class="col-sm-11">
+                    <table class="table table-bordered table-responsive" style="text-align: center">
+                        <thead>
+                            <tr class="bg-secondary">
+                                <th width="10%">Hora</th>
+                                <th width="15%">Lunes</th>
+                                <th width="15%">Martes</th>
+                                <th width="15%">Miercoles</th>
+                                <th width="15%">Jueves</th>
+                                <th width="15%">Viernes</th>
+                                <th width="15%">Sabado</th>
+                            </tr>                    
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="bg-secondary">08:00</th>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary">09:00</th>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary">10:00</th>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary">11:00</th>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary">12:00</th>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>                        
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary">13:00</th>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary">14:00</th>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary">15:00</th>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary">16:00</th>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary">17:00</th>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary">18:00</th>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                                <td rowspan="1"></td>
+                            </tr>                   
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
         </div>
 
         <footer>

@@ -83,14 +83,14 @@
                                 <label>N° Ficha</label>
                             </div>
                             <div class="col-sm-1">
-                                <input type="number" class="form-control" placeholder="0"/>
+                                <input type="number" class="form-control" id="numeroFicha" name="numeroFicha" placeholder="0"/>
                             </div>
 
                             <div class="col-sm-1">
                                 <label>Fecha</label>
                             </div>
                             <div class="col-sm-3">                             
-                                <input type="date" class="form-control" />
+                                <input type="date" class="form-control" id="" name="" />
                             </div>
                         </div>
 
@@ -100,13 +100,13 @@
                                 <label>Talla(mt)</label>
                             </div>
                             <div class="col-sm-2">
-                                <input type="number" class="form-control" placeholder="Talla"> 
+                                <input type="number" class="form-control" id="" name="" placeholder="Talla"> 
                             </div>
                             <div class="col-sm-1">
                                 <label>Peso(kg)</label>
                             </div>
                             <div class="col-sm-2">
-                                <input type="number" class="form-control" placeholder="Peso">
+                                <input type="number" class="form-control" id="" name="" placeholder="Peso">
                             </div>
                             <div class="col-sm-1">
                                 <label>IMC</label>
