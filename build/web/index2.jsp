@@ -14,6 +14,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Fisio Sport Login</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <script src="https://use.fontawesome.com/d8edee6979.js"></script>
     </head>
     <body>
         <div class="container">
@@ -69,7 +70,9 @@
                             </div>
 
                             <div class="form-group">
-                                <input type="submit" class="btn btn-info form-control" value="Ingresar"/>
+                                <button type="submit" class="btn btn-info form-control">
+                                    Ingresar <i class="fa fa-sign-in" aria-hidden="true"></i>
+                                </button>
                             </div>
 
                             <p>No tienes una cuenta aún. Createla <a href="#">aquí</a>.</p>
