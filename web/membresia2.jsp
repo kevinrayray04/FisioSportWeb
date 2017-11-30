@@ -84,16 +84,16 @@
                                 <label>Nombres</label>
                             </div>
                             <div class="col-sm-2">
-                                <input type="text" class="form-control" placeholder="Nombres">
+                                <input type="text" class="form-control" id="nombres" name="nombres" placeholder="Nombres">
                             </div>
                             <div class="col-sm-1">
                                 <label>Apellidos</label>
                             </div>
                             <div class="col-sm-4">
-                                <input type="text" class="form-control" placeholder="Apellido paterno">
+                                <input type="text" class="form-control" id="apellidoPaterno" name="apellidoPaterno" placeholder="Apellido paterno">
                             </div>
                             <div class="col-sm-4">
-                                <input type="text" class="form-control" placeholder="Apellido materno">
+                                <input type="text" class="form-control" id="apellidoMaterno" name="apellidoMaterno" placeholder="Apellido materno">
                             </div>                            
                         </div>
 
@@ -103,19 +103,19 @@
                                 <label>DNI</label>
                             </div>
                             <div class="col-sm-2">
-                                <input type="number" class="form-control" placeholder="Número de DNI">
+                                <input type="number" class="form-control" id="dni" name="dni" placeholder="Número de DNI">
                             </div>
                             <div class="col-sm-1">
                                 <label>Direccion</label>
                             </div>
                             <div class="col-sm-5">
-                                <input type="text" class="form-control" placeholder="Dirección">
+                                <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Dirección">
                             </div>
                             <div class="col-sm-1">
                                 <label>Distrito</label>
                             </div>
                             <div class="col-sm-2">
-                                <input type="text" class="form-control" placeholder="Distrito">
+                                <input type="text" class="form-control" id="distrito" name="distrito" placeholder="Distrito">
                             </div>
                         </div>
 
@@ -125,19 +125,19 @@
                                 <label>Celular</label>
                             </div>
                             <div class="col-sm-2">
-                                <input type="number" class="form-control" placeholder="Celular">
+                                <input type="number" class="form-control" id="celular" name="celular" placeholder="Celular">
                             </div>
                             <div class="col-sm-1">
                                 <label>Email</label>
                             </div>
                             <div class="col-sm-4">
-                                <input type="text" class="form-control" placeholder="Email">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Email">
                             </div>
                             <div class="col-sm-1">
                                 <label>Emergencia</label>
                             </div>
                             <div class="col-sm-3">
-                                <input type="number" class="form-control" placeholder="Número de emergencia">
+                                <input type="number" class="form-control" id="numeroEmergencia" name="numeroEmergencia" placeholder="Número de emergencia">
                             </div>
                         </div>
 
@@ -151,13 +151,13 @@
                                 <label>Ocupación</label>
                             </div>
                             <div class="col-sm-3">
-                                <input type="text" class="form-control" placeholder="Ocupación">
+                                <input type="text" class="form-control" id="ocupacion" name="ocupacion" placeholder="Ocupación">
                             </div>
                             <div class="col-sm-2">
                                 <label>Centro de trabajo</label>
                             </div>
                             <div class="col-sm-6">
-                                <input type="text" class="form-control" placeholder="Centro de trabajo">
+                                <input type="text" class="form-control" id="centroTrabajo" name="centroTrabajo" placeholder="Centro de trabajo">
                             </div>
                         </div>
 
@@ -167,13 +167,13 @@
                                 <label>Dirección</label>
                             </div>
                             <div class="col-sm-8">
-                                <input type="text" class="form-control" placeholder="Dirección">
+                                <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Dirección">
                             </div>
                             <div class="col-sm-1">
                                 <label>Teléfono</label>
                             </div>
                             <div class="col-sm-2">
-                                <input type="number" class="form-control" placeholder="Teléfono">
+                                <input type="number" class="form-control" id="telefono" name="telefono" placeholder="Teléfono">
                             </div>
                         </div>
 
@@ -187,13 +187,13 @@
                                 <label>Servicio adquirido</label>
                             </div>
                             <div class="col-sm-5">
-                                <input type="text" class="form-control" placeholder="Servicio adquirido">
+                                <input type="text" class="form-control" id="servicio" name="servicio" placeholder="Servicio adquirido">
                             </div>
                             <div class="col-sm-1">
                                 <label>Promoción</label>
                             </div>
                             <div class="col-sm-4">
-                                <input type="text" class="form-control" placeholder="Promoción">
+                                <input type="text" class="form-control" id="promocion" name="promocion" placeholder="Promoción">
                             </div>
                         </div>
 
@@ -203,16 +203,16 @@
                                 <label>Congelamiento</label>
                             </div>
                             <div class="col-sm-2">
-                                <input type="number" class="form-control" placeholder="Congelamiento">
+                                <input type="number" class="form-control" id="congelamiento" name="congelamiento" placeholder="Congelamiento">
                             </div>
                             <div class="col-sm-1">
                                 <label>Pago</label>
                             </div>
                             <div class="col-sm-3">
-                                <select class="form-control">
-                                    <option>Efectivo</option>
-                                    <option>Visa</option>
-                                    <option>Mastercard</option>
+                                <select class="form-control" id="pago" name="pago">
+                                    <option id="efectivo" name="efectivo">Efectivo</option>
+                                    <option id="visa" name="visa">Visa</option>
+                                    <option id="mastercard" name="mastercard">Mastercard</option>
                                 </select>
                             </div>
                         </div>
@@ -223,13 +223,13 @@
                                 <label>Número de sesiones</label>
                             </div>
                             <div class="col-sm-3">
-                                <input type="text" class="form-control" placeholder="Número de sesiones">
+                                <input type="number" class="form-control" id="sesiones" name="sesionesFisioterapia" placeholder="Número de sesiones">
                             </div>
                             <div class="col-sm-2">
                                 <label>Sesiones de nutricion</label>
                             </div>
                             <div class="col-sm-3">
-                                <input type="text" class="form-control" placeholder="Sesiones de nutrición">
+                                <input type="number" class="form-control" id="sesionesNutricion" name="sesionesNutricion" placeholder="Sesiones de nutrición">
                             </div>
                         </div>
 
@@ -239,13 +239,13 @@
                                 <label>Consultas médicas</label>
                             </div>
                             <div class="col-sm-2">
-                                <input type="text" class="form-control" placeholder="Consultas médicas">
+                                <input type="text" class="form-control" id="consultasMedicas" name="consultasMedicas" placeholder="Consultas médicas">
                             </div>
                             <div class="col-sm-2">
                                 <label>Frecuencia</label>
                             </div>
                             <div class="col-sm-2">
-                                <input type="text" class="form-control" placeholder="Frecuencia">
+                                <input type="text" class="form-control" id="frecuencia" name="frecuencia" placeholder="Frecuencia">
                             </div>
                         </div>
 
